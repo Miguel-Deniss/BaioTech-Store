@@ -51,63 +51,66 @@
     </section>
 
     <section id="produtos" class="produtos">
-      <h2>Produtos em destaque</h2>
-
+      <h2><i class="bi bi-cart-fill"></i> Produtos em Destaque</h2>
+    
       <div class="container-grid">
-        <div class="card">PC Gamer RTX 5070</div>
-        <div class="card">Monitor Gamer 27"</div>
-        <div class="card">Teclado Mecânico RGB</div>
-        <div class="card">Headset Gamer</div>
-      </div>
-    </section>
-
-    <section id="categorias" class="categorias">
-      <div class="gamer">
-        <h2><i class="bi bi-controller"></i> Gamer</h2>
-        <p>Produtos voltados para jogos e alto desempenho.</p>
-
-        <ul>
-          <li>PC Gamer RTX 5070</li>
-          <li>Monitor Gamer 27" 165Hz</li>
-          <li>Teclado Mecânico RGB</li>
-          <li>Mouse Gamer Pro</li>
-        </ul>
-      </div>
-
-      <div class="trabalho">
-        <h2><i class="bi bi-briefcase-fill"></i> Trabalho</h2>
-        <p>Equipamentos para produtividade e escritório.</p>
-
-        <ul>
-          <li>Notebook Empresarial</li>
-          <li>Monitor Ultrawide 29"</li>
-          <li>Teclado Sem Fio</li>
-          <li>Webcam Full HD</li>
-        </ul>
-      </div>
-      <div class="estudo">
-        <h2><i class="bi bi-book-fill"></i> Estudo</h2>
-        <p>Produtos para estudantes e uso diário.</p>
-
-        <ul>
-          <li>Notebook para Estudos</li>
-          <li>Tablet Educacional</li>
-          <li>Headset com Microfone</li>
-          <li>Impressora Multifuncional</li>
-        </ul>
-      </div>
-      <div class="acessorio">
-        <h2><i class="bi bi-headset"></i> Acessórios</h2>
-        <p>Itens para complementar o setup.</p>
-
-        <ul>
-          <li>Headset RGB</li>
-          <li>Mouse Pad Gamer</li>
-          <li>Caixa de Som Bluetooth</li>
-          <li>Hub USB</li>
-          <li>Teclado Mecânico</li>
-          <li>Cadeira Gamer</li>
-        </ul>
+    
+        <div class="card produto-card">
+          <h3>PC Gamer RTX 5070</h3>
+          <p>Processador Ryzen 7 • 32GB RAM • SSD 1TB</p>
+    
+          <span class="preco">
+            R$ 8.999,90
+          </span>
+    
+          <button class="btn-comprar">
+            <i class="bi bi-cart-plus-fill"></i>
+            Comprar
+          </button>
+        </div>
+    
+        <div class="card produto-card">
+          <h3>Monitor Gamer 27"</h3>
+          <p>165Hz • Full HD • Painel IPS</p>
+    
+          <span class="preco">
+            R$ 1.499,90
+          </span>
+    
+          <button class="btn-comprar">
+            <i class="bi bi-cart-plus-fill"></i>
+            Comprar
+          </button>
+        </div>
+    
+        <div class="card produto-card">
+          <h3>Teclado Mecânico RGB</h3>
+          <p>Switch Red • Iluminação RGB</p>
+    
+          <span class="preco">
+            R$ 349,90
+          </span>
+    
+          <button class="btn-comprar">
+            <i class="bi bi-cart-plus-fill"></i>
+            Comprar
+          </button>
+        </div>
+    
+        <div class="card produto-card">
+          <h3>Headset Gamer</h3>
+          <p>Som Surround • Microfone Integrado</p>
+    
+          <span class="preco">
+            R$ 249,90
+          </span>
+    
+          <button class="btn-comprar">
+            <i class="bi bi-cart-plus-fill"></i>
+            Comprar
+          </button>
+        </div>
+    
       </div>
     </section>
 
@@ -170,7 +173,7 @@
     </section>
 
     <section id="depoimentos">
-      <h2><i class="bi bi-chat-quote-fill"></i> Depoimentos</h2>
+      <h2 id="depoimentos"><i class="bi bi-chat-quote-fill"></i> Depoimentos</h2>
 
       <h3>⭐ João Silva</h3>
       <p>Entrega rápida e produto de ótima qualidade.</p>
@@ -183,7 +186,8 @@
     <!--Contato-->
     <section id="contato" class="py-5">
       <div class="container">
-        <div class="text-center mb-5">
+        <div class="text-center mb-5"
+             class="div-contato">
           <h2>Fale Conosco</h2>
           <p>
             Tem alguma dúvida, sugestão ou precisa de ajuda para encontrar o
@@ -242,7 +246,7 @@
       </div>
     </section>
 
-    <footer class="bg-dark text-light py-5">
+    <footer class="text-light py-5">
       <div class="container">
         <div class="row">
           <!-- Logo -->
@@ -259,19 +263,19 @@
             <h5>Redes Sociais</h5>
 
             <a href="#" class="text-light me-3 fs-4">
-              <i class="bi bi-instagram"></i>
+              <i class="bi bi-instagram instagram"></i>
             </a>
 
             <a href="#" class="text-light me-3 fs-4">
-              <i class="bi bi-facebook"></i>
+              <i class="bi bi-facebook facebook"></i>
             </a>
 
             <a href="#" class="text-light me-3 fs-4">
-              <i class="bi bi-linkedin"></i>
+              <i class="bi bi-linkedin linkedin"></i>
             </a>
 
             <a href="#" class="text-light fs-4">
-              <i class="bi bi-github"></i>
+              <i class="bi bi-github github"></i>
             </a>
           </div>
 
